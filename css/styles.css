@@ -4,9 +4,14 @@ h1 {
     
 
 img {
-    width: 50%;
+    width: 10%;
 }
 
 body {
         background: url(../img/mochaGrunge/mochaGrunge.png);
 }
+
+p {
+    font-size: 100px;
+}
+
