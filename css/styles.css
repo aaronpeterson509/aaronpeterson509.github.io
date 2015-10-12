@@ -1,5 +1,30 @@
 h1 {
-    color: rgba(0,0,0,.5);
+    element.style 
+    color: maroon;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+}
+    
+
+img {
+    width: 10%;
+}
+
+body {
+        background: url(../img/mochaGrunge/mochaGrunge.png);
+}
+
+p {
+    font-size: 100px;
+}
+
+h1 {
+    element.style 
+    color: maroon;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
 }
     
 
