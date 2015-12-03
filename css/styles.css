@@ -6,9 +6,21 @@ h1 {
 
 }
     
+nav li {
+    display: inline;
+}
 
 img {
     width: 10%;
+}
+
+/* Gallery */
+.gallery {
+    height: 600px;
+}
+
+.gallery {
+    background: none;
 }
 
 body {
