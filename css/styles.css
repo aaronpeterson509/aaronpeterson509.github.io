@@ -5,21 +5,38 @@ h1 {
     letter-spacing: 4px;
 
 }
+
+/* NAVIGATION */
+#navBanner {
     
-nav li {
-    display: inline;
 }
 
+nav li {
+    background: #283048; /* fallback for old browsers */
+    background: -webkit-linear-gradient(top, #283048 , #859398); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(top, #283048 , #859398); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: inline;
+    padding-right: 2%;
+    padding-left: 2%;
+    margin-right: -.25%;
+}
+
+nav a {
+    color: white;
+}
+
+/* IMAGES */
 img {
     width: 10%;
+}
+
+#headshot {
+    border-radius: 50%;
 }
 
 /* Gallery */
 .gallery {
     height: 600px;
-}
-
-.gallery {
     background: none;
 }
 
@@ -31,19 +48,7 @@ p {
     font-size: 100px;
     font-family: 'Fontdiner Swanky', cursive, serif;
 }
-
-h1 {
-    element.style 
-    color: maroon;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-
-}
     
-
-img {
-    width: 10%;
-}
 
 body {
         background: url(../img/mochaGrunge/mochaGrunge.png);
