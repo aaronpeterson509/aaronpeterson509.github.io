@@ -15,14 +15,15 @@ nav li {
     background: #283048; /* fallback for old browsers */
     background: -webkit-linear-gradient(top, #283048 , #859398); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(top, #283048 , #859398); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    display: inline;
+    display: inline-block;
     padding-right: 2%;
     padding-left: 2%;
     margin-right: -.25%;
 }
 
 nav a {
-    color: white;
+    color: #EEEEFF;
+    text-decoration: none;
 }
 
 /* IMAGES */
