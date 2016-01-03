@@ -1,61 +1,95 @@
-h1 {
-    element.style 
-    color: maroon;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-
+html {
+    height: 100%;
 }
 
 /* NAVIGATION */
-#navBanner {
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    list-style: none;
     
 }
 
 nav li {
-    background: #283048; /* fallback for old browsers */
-    background: -webkit-linear-gradient(top, #283048 , #859398); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(top, #283048 , #859398); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: none; /* fallback for old browsers */
     display: inline-block;
-    padding-right: 2%;
-    padding-left: 2%;
-    margin-right: -.25%;
+    text-align: center;
+    border-right: thin solid #fefefe;
+    margin: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+    
+}
+
+nav li:last-child {
+    border-right: none;
 }
 
 nav a {
-    color: #EEEEFF;
+    color: #fefefe;
     text-decoration: none;
+    text-transform: uppercase;
+/*    text-align: center;*/
+    padding-left: 1em;
+    padding-right: 1em;
+    letter-spacing: 1em;
+    font-size: 1.4em;
+
 }
 
-/* IMAGES */
-img {
-    width: 10%;
-}
 
-#headshot {
-    border-radius: 50%;
-}
 
-/* Gallery */
-.gallery {
-    height: 600px;
-    background: none;
+/* BODY */
+#name {
+    margin: 0;
+    padding: 0;
+    border: solid thin black;
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 2em;
+    font-family: 'Poiret One', cursive;
 }
 
 body {
-        background: url(../img/mochaGrunge/mochaGrunge.png);
+    height: 100%;
+    margin: 0;
+    background: #8e9eab; /* fallback for old browsers */
+    background: -webkit-linear-gradient(top, #8e9eab , #eef2f3) no-repeat; /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(top, #8e9eab , #eef2f3) no-repeat; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
 }
 
 p {
     font-size: 100px;
     font-family: 'Fontdiner Swanky', cursive, serif;
 }
+
+
+
+/* IMAGES */
+img {
+    width: 7%;
+}
+
+#headshot {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50%;
+}
+
+    /* Gallery */
+.gallery {
+    height: 600px;
+    background: none;
+}
+
+
+
     
-
-body {
-        background: url(../img/mochaGrunge/mochaGrunge.png);
-}
-
-p {
-    font-size: 100px;
-}
 
